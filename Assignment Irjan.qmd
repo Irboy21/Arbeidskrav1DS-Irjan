@@ -26,16 +26,15 @@ What is discussed?
 Why is it of any consequence?
 
 This paper will look at the reproducibility vs replicability question often posed in the field of science.
-In recent year their has been an "crisis" in many academic fields due to reports that many study's conducted in the past might present false results @ioannidis2005b.
+In recent year their has been an "crisis" in many academic fields due study's might present false findings\@ioannidis2005b.
 In fields where this is the case, findings that are part of the foundation of the practice can be based on false claims.
 This paper will discuss whether or not reproducibility is enough for publications too be viewed as valid, or replicability needs to be the standard.
-Last christmas
 
 ## Literature review
 
-Now I will look at what sepperated the two terms The last time this happend
-
-Last kebab
+Firstly I will define the two terms, and look at what separates them.
+Reproducibility is when results of a study, can be found again if the same tests are run from the same data sample that the original study used.
+Replicability on the other hand is when the same resaults can be found from a different population.
 
 Smart stuff from others about the topic.
 
