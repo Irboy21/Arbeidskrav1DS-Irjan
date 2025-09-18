@@ -27,14 +27,24 @@ Why is it of any consequence?
 
 This paper will look at the reproducibility vs replicability question often posed in the field of science.
 In recent year their has been an "crisis" in many academic fields due study's might present false findings\@ioannidis2005b.
-In fields where this is the case, findings that are part of the foundation of the practice can be based on false claims.
+In fields where this is the case, false princibles can are part of the fields foundation .
 This paper will discuss whether or not reproducibility is enough for publications too be viewed as valid, or replicability needs to be the standard.
 
 ## Literature review
 
 Firstly I will define the two terms, and look at what separates them.
-Reproducibility is when results of a study, can be found again if the same tests are run from the same data sample that the original study used.
-Replicability on the other hand is when the same resaults can be found from a different population.
+Steven Goodman defines Reproducibility as the ability to achieve the same results when redoing an previous study when the same data and approach is used @goodman2016b. Today, this is considered the minimum requirement for the findings of an study being valid @ioannidis2005b. In order for a study's findings to be reproducible a key set of factors need to be in place.
+The data used must be presented to the reader in a way that is suitable to collect and reuse in an recreation.
+Then there must be a good description of what model and algorithms, with a good protocol description.
+And it is important that all software and witch version was used is clearly specified.
+
+Replicability on the other hand is when the same results can be found from a different population.
+
+In 2019 the United States of America saw the potential threat of false findings, and made an committee with the goal of giving researches and better understanding and baseline for the importance of trustworthy Science.
+The committee witch consisted of high profile industry leaders across many different scientific areas collaborated on this.
+As a result in 2019 there was released an very in dept paper on the subject that raised some good observations.
+
+@committeeonreproducibilityandreplicabilityinscience2019
 
 Smart stuff from others about the topic.
 
