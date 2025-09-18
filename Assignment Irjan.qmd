@@ -1,0 +1,64 @@
+---
+title: "Is reproducibility good enough?"
+author: "Irjan Vikre"
+date: last-modified
+date-format: "dddd D MMM, YYYY"
+csl: apa7.csl
+lang: en-GB
+format:
+  html: default
+  typst:
+    papersize: a4
+  pdf:
+    documentclass: article
+    number-sections: true
+    keep-tex: true
+    papersize: A4
+    fig-pos: "H"
+bibliography: reproducibility.bib
+abstract: "A very short abstract. Put the abstract text here. One or two paragraphs summarising what follows below."
+---
+
+## Introduction
+
+What is this paper about?
+What is discussed?
+Why is it of any consequence?
+
+This paper will look at the reproducibility vs replicability question often posed in the field of science.
+In recent year their has been an "crisis" in many academic fields due to reports that many study's conducted in the past might present false results @ioannidis2005b.
+In fields where this is the case, findings that are part of the foundation of the practice can be based on false claims.
+This paper will discuss whether or not reproducibility is enough for publications too be viewed as valid, or replicability needs to be the standard.
+Last christmas
+
+## Literature review
+
+Now I will look at what sepperated the two terms The last time this happend
+
+Last kebab
+
+Smart stuff from others about the topic.
+
+Use a least 20 citations, a least 5 of them must be new (not from the provided .bib file).
+
+Use both in-line and normal citations.
+
+Example:
+
+@gentleman2005 argues that bla bla bla.
+On the other hand it's claimed that bla bla [@barbalorenaa.2018; @bartlett2008].
+
+## Discussion of the reseach question
+
+-   Should replicability be the norm or is this to much to ask for now?
+-   Can Quarto documents help with reproducibility?
+-   What problems remains and how can these be solved?
+
+## Conclusion
+
+## References
+
+and
+
+-   Version number and reference to packages used
+-   R version used
