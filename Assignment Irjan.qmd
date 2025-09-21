@@ -65,10 +65,14 @@ On the other hand it's claimed that bla bla [@barbalorenaa.2018; @bartlett2008].
 -   Can Quarto documents help with reproducibility?
 -   What problems remains and how can these be solved?
 
-The centrail question is weather or not replicability should be the norm for scientific study.
+A central question is weather or not replicability should be the norm for scientific study, or if this is too much to ask.
 I would argue that to what extend we can expect researchers to achive the goal of replicability varies between fields of science.
 Some fields are controlled and universal laws applie, for instance in physics and chemistry related research.
-Since these are based on "laws of nature" and should not be affected buy culture and individual differences, I think that there should be expectancy for replicability .
+Since these are based on "laws of nature", and should not be affected buy culture and individual differences, I think that there should be expectancy for replicability today.
+Comparibly in some fields individual differences can be excepted to affect the outcome when using different sets of data.
+This can for example be behavioral ecomincs studys.
+To give an example: If you have a dataset of 1000 peoples attitudes toward risk, that might give the conclusiojn that most people are risk averse.
+If the same studie is run again with different 1000 data sets, the conclusion may be that most people are risk seeking.
 
 ## Conclusion
 
