@@ -26,19 +26,19 @@ What is discussed?
 Why is it of any consequence?
 
 This paper will look at the reproducibility vs replicability question often posed in the field of science.
-In recent year their has been an "crisis" in many academic fields due study's might present false findings\@ioannidis2005b.
-In fields where this is the case, false princibles can are part of the fields foundation .
-This paper will discuss whether or not reproducibility is enough for publications too be viewed as valid, or replicability needs to be the standard.
+In recent year their has been an "crisis" in many academic fields due to concerts many study's might present false findings @ioannidis2005b. This paper will discuss whether or not reproducibility is enough for publications too be viewed as valid, or replicability needs to be the standard.
+This is an important topic due to the possibility of false principles being a part of the fields foundation .
+This can lead to much time and effort being wasted of further research and development
 
 ## Literature review
 
 Firstly I will define the two terms, and look at what separates them.
-Steven Goodman defines Reproducibility as the ability to achieve the same results when redoing an previous study when the same data and approach is used @goodman2016b.
-Today, this is considered the minimum requirement for the findings of an study being valid @ioannidis2005b.
+Steven Goodman defines Reproducibility as the ability to achieve the same results when redoing an previous study when the same data and approach is used @goodman2016b Today, this is considered the minimum requirement for the findings of an study being valid @ioannidis2005b.
 In order for a study's findings to be reproducible a key set of factors need to be in place.
 The data used must be presented to the reader in a way that is suitable to collect and reuse in an recreation.
 Then there must be a good description of what model and algorithms, with a good protocol description.
-And it is important that all software and witch version was used is clearly specified.
+And it is important that all software and used version used is clearly specified @gentleman2005b. Robert Gentleman argues that if these aspect are not properly documented, the thought of reproduce an original experiment almost imposible.
+In order for
 
 Replicability on the other hand is when the same results can be found from a different population.
 
