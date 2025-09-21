@@ -26,21 +26,33 @@ What is discussed?
 Why is it of any consequence?
 
 This paper will look at the reproducibility vs replicability question often posed in the field of science.
-In recent year their has been an "crisis" in many academic fields due study's might present false findings\@ioannidis2005b.
+In recent year their has been an "crisis" in many academic fields due study's might present false findings @ioannidis2005b .
 In fields where this is the case, false princibles can are part of the fields foundation .
 This paper will discuss whether or not reproducibility is enough for publications too be viewed as valid, or replicability needs to be the standard.
 
 ## Literature review
 
 Firstly I will define the two terms, and look at what separates them.
-Steven Goodman defines Reproducibility as the ability to achieve the same results when redoing an previous study when the same data and approach is used @goodman2016b. Today, this is considered the minimum requirement for the findings of an study being valid @ioannidis2005b. In order for a study's findings to be reproducible a key set of factors need to be in place.
+Steven Goodman defines Reproducibility as the ability to achieve the same results when redoing an previous study when the same data and approach is used @goodman2016b Today, this is considered the minimum requirement for the findings of an study being valid @ioannidis2005b .
+In order for a study's findings to be reproducible a key set of factors need to be in place.
 The data used must be presented to the reader in a way that is suitable to collect and reuse in an recreation.
-Then there must be a good description of what model and algorithms, with a good protocol description.
-And it is important that all software and witch version was used is clearly specified.
+Then there must be a good description of what model and algorithms are used , with a good protocol description.
+And it is important that all software and witch version was used is clearly specified @markowetz2015a.
+
+Florian Markowtz has an interesting view on why scientist should aim to make reproducible publications.
+He firstly argues that from the perspective of an individual scientist, reproducible can be viewed as an extra step that increases time consumption, whitch prolongs the writing process.
+This reduces how many publications one can make.
+Therefor by not focusing on reproducibility and "pumping" out more publications there is bigger monitory and career advancing advantages.
+This clearly can potentially give benefits to the individual researcher that chooses this approach, but everyone else "loses".
+He then gives five compelling arguments to why reaserchers for "selfish" and I would say also some "big picture" reasons should make reproducibility an high priority @markowetz2015a.
+
+In an article published by frontiers in Neuroinformatics, argues that the established definitions of the two terms goes against how science have viewed the meaning of them over the years @plesser2018.
+
+The secon
 
 Replicability on the other hand is when the same results can be found from a different population.
 
-In 2019 the United States of America saw the potential threat of false findings, and made an committee with the goal of giving researches and better understanding and baseline for the importance of trustworthy Science.
+In 2019 the United States of America saw the potential threat of false findings, and made an committee with the goal of giving researches an better understanding and baseline for the importance of trustworthy Science.
 The committee witch consisted of high profile industry leaders across many different scientific areas collaborated on this.
 As a result in 2019 there was released an very in dept paper on the subject that raised some good observations.
 
@@ -63,7 +75,10 @@ On the other hand it's claimed that bla bla [@barbalorenaa.2018; @bartlett2008].
 -   Can Quarto documents help with reproducibility?
 -   What problems remains and how can these be solved?
 
-## Conclusion
+The centrail question is weather or not replicability should be the norm for scientific study.
+I would argue that to what extend we can expect researchers to achive the goal of replicability varies between fields of science.
+Some fields are controlled and universal laws applie, for instance in physics and chemistry related research.
+Since these are based on "laws of nature" and should not be affected buy culture and individual differences, I think that there should be expectancy for replicability .
 
 ## References
 
