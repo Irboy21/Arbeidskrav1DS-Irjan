@@ -16,12 +16,11 @@ format:
     papersize: A4
     fig-pos: "H"
 bibliography: reproducibility.bib
-abstract: "A very short abstract. Put the abstract text here. One or two paragraphs summarising what follows below."
+abstract: Is reproducibility  enough for publications, or should replicability  be the standard? This paper will argue that it depends on different fields 
 ---
 
 ## Introduction
 
-This paper will look at the reproducibility vs replicability question often posed in the field of science.
 In recent year their has been an "crisis" in many academic fields due to concerns many study's might present false findings @ioannidis2005b.
 This paper will discuss whether or not reproducibility is enough for publications too be viewed as valid, or replicability needs to be the standard.
 This is an important topic due to the possibility of false principles being a part of the fields foundation .
