@@ -5,112 +5,107 @@ date: last-modified
 date-format: "dddd D MMM, YYYY"
 csl: apa7.csl
 lang: en-GB
+number-sections: true
+papersize: a4
+citeproc: true
 format:
   html: default
-  typst:
-    papersize: a4
+  typst: default
   pdf:
     documentclass: article
-    number-sections: true
-    keep-tex: true
-    papersize: A4
     fig-pos: "H"
-bibliography: reproducibility.bib
-abstract: Is reproducibility  enough for publications, or should replicability  be the standard? This paper will argue that it depends on different fields 
+    out-file: "Assignment_Irjan_tex.pdf"
+  docx: default
+bibliography: 
+  - reproducibility.bib
+abstract: Is reproducibility  enough for publications, or should replicability  be the standard? This paper will argue that it depends on the field of research.
 ---
 
 ## Introduction
 
-In recent year their has been an "crisis" in many academic fields due to concerns many study's might present false findings @ioannidis2005b.
-This paper will discuss whether or not reproducibility is enough for publications too be viewed as valid, or replicability needs to be the standard.
-This is an important topic due to the possibility of false principles being a part of the fields foundation .
-This can lead to much time and effort being wasted of further research and development
+In recent year there has been a “crisis” in many academic fields due to concerns that many studiess might present false findings [@ioannidis2005b].
+This paper will discuss whether or not reproducibility is enough for publications too be viewed as valid, or that replicability needs to be the standard.
+This is an important topic due to the possibility of false principles being a part of the fields foundation.
+This can lead to much time and effort being wasted on further research and development.
 
 ## Literature review
 
-Firstly I will define the two terms, and look at what separates them.
-Reproducibility and replicability are central concepts in ensuring scientific reliability, but they are sometimes viewed as interchangeable .
-@goodman2016b defines Reproducibility as the ability to achieve the same results when redoing an previous study using the same data and approach .Today, this is considered the minimum requirement for the findings of an study being valid @ioannidis2005b .
+Reproducibility and replicability are central concepts in ensuring scientific reliability, but they are sometimes viewed as interchangeable.
+@goodman2016b defines Reproducibility as the ability to achieve the same results when redoing a previous study using the same data and approach. Today, this is considered the minimum requirement for the findings of a study being valid [@ioannidis2005b].
 In order for a study's findings to be reproducible a key set of factors need to be in place.
-These are well documented data, clear descriptions of models and algorithms, detailed experimental or analysis protocols, and specification of software used.
-@gentleman2005b .
-Only if all these factors are in place the study will be suited towards verification by independent reaserchers .
-If there is a lack of this transparrency, the validity of the findings are compromised @plesser2018 .
+These are well documented data, clear descriptions of models and algorithms, detailed experimental or analysis protocols, and specification of software used [@gentleman2005b].
+The study will be suited towards verification by independent reaserchers only if all these factors are in place.
+If there is a lack of this transparency, the validity of the findings are compromised [@plesser2018].
 
-@plesser2018 stated that there is a challenge that not every scientist know the difference between the two terms, and that they are somewhat viewed as the same thing.
-Replicability is harder to achive.
+@plesser2018 further states that not every scientist know the difference between the two terms, and that they are somewhat viewed as the same thing. This is viewed as a challenge.
+Replicability is harder to achive than reproducibility.
 A study is replicable when the same results can be found from a different set of data.
-To summerize reproducibility is used to ensure that data where analysed properly and actually warents the claimed findings, while replicability can verify that the findings are valid in a generalized way.
+To summarize reproducibility is used to ensure that data where analysed properly and actually warrants the claimed findings, while replicability can verify that the findings are valid in a generalized way.
 
 An interesting question is why there are created research papers that are neither reproducible nor replicable.
-@markowetz2015a argues from the view of an individual scientist, there can be found good egosentrical reasons to not strive for this.
-Making onces research reproducable can be an time consuming process.
+@markowetz2015a argues from the view of an individual scientist that there might be good egocentric reasons not to strive for replicability or even reproducibility.
+Making ones research reproducible can be an time consuming process.
 By skipping this step the researcher spends less time on each paper.
-He can therefor realese more papers, with can mean bigger monitory and carrer advancing benefits.
-But given the increasing concern about reproducible science, this approach today might be shooting yourself in the foot, as your research may be found unserious, and harm further opportunities as an scientist.
-In his article, @markowetz2015a gives 5 reasons why it pays off to work reproducible.
+He can therefor release more papers, wich can give a larger monetary reward and career advancing benefits.
+But given the increasing concern about reproducible science, this approach today might be shooting oneself in the foot, as your research may be found unserious, and harm further opportunities as an scientist.
+@markowetz2015a gives 5 reasons why it might pay off to work in a reproducible manner.
 
 The first reasons is to avoid disaster.
 If much resources has been used in a field based on a specific finding, and later that finding turns out to not hold water, there will be many negative consequences.
-He also argues that the writing process actually will be easier when ones work is reproducible.
+He further argues that the writing process actually will be easier when ones work is reproducible.
 When you make transparent data and codes, it will make the process of writing and adjusting the paper to fit the findings of the data easier.
 His third argument is that it is important to have peers in you back when realizing a paper.
 Other scientist will much easier then the general public see through bad documentation.
 This can lead to bad reviews and reputation among others in you field.
-Another reasons he gives is that it will be easier to make further research when you continue writing papers in the future.
+Another reasons he gives is that it will be easier to make further research based on previous reproducible work.
 If your original paper is well documented, it will be much easier to ensure a continuity when developing your earlier findings.
 
-In 2019 the United States of America saw the potential threat of false findings, and made an committee with the goal of giving researches and better understanding and baseline for the importance of trustworthy Science.
-The committee witch consisted of high profile industry leaders across many different scientific areas collaborated on this.
-As a result in 2019 there was released an very in dept paper on the subject that raised some good observations.
+In 2019 the United States of America saw the potential threat of false findings, and made an committee with the goal of giving researches a better understanding and baseline for the importance of trustworthy Science.
+The committee wich consisted of high profile industry leaders across many different scientific areas collaborated on this.
+As a result @committeeonreproducibilityandreplicabilityinscience2019 released a very in depth paper on the subject which contained some good observations.
 
-@committeeonreproducibilityandreplicabilityinscience2019
-
-@dewald1986b Wrote an article in the 80s where he pointed out that spending time replicating others people work, dos not lead to the same recognition as making completely new studies and findings.
+@dewald1986b point out that spending time replicating others people work, does not lead to the same recognition as making completely new studies and findings.
 A researcher working on validating someone elses work over creating something for his own, might be considered lazy or unimaginative.
-@wolfgang2025 wrote a more recent article, published in 2025.
-He indicates that through the years reproducible papers dont have the same kind of "stigma" as it did earlier.
+@wolfgang2025 indicates that through the years reproducible papers dont have the same kind of “stigma” as it did earlier.
 This helps confirm that the threat unproven science holds have a more serious status then earlier.
 This should be seen as a very good evolution.
-@nosek2015 says that when we make a move towards a more transparent environment in our research, we will have much more credible finding in the future.
+@nosek2015 claims that when we make a move toward a more transparent environment in our research, we will have much more credible finding in the future.
 This will reduce the amount of time and money used trying to reach dead end results.
 
 ## Discussion of the reseach question
 
-A central question is weather or not replicability should be the norm for scientific study, or if this is too much to ask.
-I would argue that to what extend we can expect researchers to achive the goal of replicability varies between fields of science.
-Some fields are controlled and universal laws applie, for instance in physics and chemistry related research.
-Since these are based on "laws of nature", and should not be affected buy culture and individual differences, I mean that in those fields there should be and higher expectancy for replicability.
-Comparibly in other fields individual differences can be excepted to affect the outcome when using different sets of data.
-This can for example be behavioral ecomincs studys.
+A central question is whether or not replicability should be the norm for scientific study, or if this is too much to ask for.
+I would argue that to what extend we can expect researchers to achieve the goal of replicability varies between fields of science.
+Some fields are controlled and universal laws apply, for instance in physics and chemistry related research.
+Since these are based on “laws of nature”, and should not be affected buy culture and individual differences, I mean that in those fields there should be a higher expectancy for replicability.
+In other fields individual differences can be excepted to affect the outcome when using different sets of data.
+This can for example be behavioral economics studies.
 To give an example: If you have a dataset of 1000 peoples attitudes toward risk, that might give the conclusion that most people are risk averse.
-If the same studie is run again with a new set of data, the conclusion may be that most people are risk seeking.
+If the same study is run again with a new set of data, the conclusion may be that most people are risk seeking.
 
-When we see that there are examples not meeting the reproducibility standard, it is too early to expect replicability as an universal standard yet, @schröder But with the wave of new digital tools we are getting to a point where making reproducible reaserch should be achivable for everybody who is willing to put in the time/effort.
-One of the most prominent innovations here is "quarto documents".
+When we see that there are examples not meeting the reproducibility standard, it is perhaps yet too early to expect replicability as an universal standard [@schröder]. But with the wave of new digital tools we are getting to a point where making reproducible reaserch should be achivable for everybody who is willing to put in the time/effort.
+One of the most prominent innovations here is “quarto documents”.
 Quarto documents make research more transparent.
-Quarto lets you combine texting and coding in one document.
+Quarto lets you combine text and code in one document.
 The figures used in the reasoning of a finding can therefor be directly linked to the code that produced it.
-This elements the need for external peers looking to reproduce the study to make thees from scratch, they can simply re-run the experiment based on the parmiiters that already exist in the document.
-Another problem that gets eliminated is deviation based on sowtfare.
-Traditionally a problem that may occur is that the reproduction of a finding is reliant on using the same software and even version that the original was run on.
-
-@wickham2016 @riederer
+This eliminates the need for external peers looking to reproduce the study or to make these from scratch. They can simply re-run the experiment based on the parameters that already exist in the document.
+Another problem that gets eliminated is deviation based on software.
+Traditionally a problem that may occur is that the reproduction of a finding is reliant on using the same software and even version that the original was run on [@wickham2016; @riederer].
 
 Despite the use of digital assets there is still some issues that can hinder reproducibility.
 @schröder systemically analysed modern research papers looking to understand the state of reproducibility in science.
 They state that there still is a lack comprehensive documentation in some modern research papers.
 I would argue that this can come down to people holding onto their old ways and not wishing to learn the new innovation of quarto documents.
-In the comming years, the benefits of quarto documents should be emphised in scientific enviroments, so it can get a bigger use rate.
+In the comming years, the benefits of quarto documents should be emphasised in scientific environments, so it can get a bigger use rate.
 
 ## Conclusion
 
 Whether reproducibility or replicability should be viewed as the standard will vary between fields, based on how realistic it is to achieve.
 But with the increased focus by academics on its importance, and surge of helpful software, reproducibility should be a minimum in today age.
 
-## References
-
-and
+## Software use
 
 -   Packages used (tidyverse, r markdown and commonmark
 -   R version 4.5.1 (Great square root)
+
+## References
