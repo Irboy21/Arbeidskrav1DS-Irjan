@@ -4,3 +4,19 @@ format: html
 editor: visual
 ---
 
+## General comments
+
+- Nice paper
+- Added `citeproc: true`to YAML. Forces `typst` to use bibtex.
+- Moved `number-sections: true` and `papersize: a4` out of format to make it default for all relevant formats.
+- added `out-file: "Assignment_Irjan_tex.pdf"` to pdf format. Else `typst` and `pdf` will overwrite each others pdf file.
+- Changed bibliography entry to the new `quarto` way. Easier if you need to specify multiple bib files.
+- Made a little change to the end of abstarct.
+- Changed "crisis" to “crisis”. Makes a difference in pdf output.
+- Use `[@ioannidis2005b]` for end of sentence reference and `@ioannidis2005b` for in-text reference.
+- I have fixed some typos and suggested some changes to the text.
+- Nice commit history
+
+## Tips and Tricks
+
+- Added `docx: default` as format. Nice to have the opportunity.
